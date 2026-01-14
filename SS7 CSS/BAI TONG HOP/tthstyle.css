@@ -1,0 +1,234 @@
+#banner{
+    color: azure;
+  
+    background-image: linear-gradient(to right, rgb(45, 60, 199) , rgb(14, 114, 207));
+}
+
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    /* box-sizing: ; */
+}
+
+
+#title{
+    margin: 40px;
+    padding: 5px;
+    height: 1px;
+    
+}
+
+#small {
+    display: inline-block;
+   
+    
+}
+
+#smallcontiant{
+     text-align: center;
+    background-color: rgba(29, 24, 24, 0.3);
+    padding: 20px;
+    border-radius: 40px;
+    padding: 10px;
+    width: 170;
+    height: 20;
+    border: 2px solid rgba(0, 0, 0 , 0.23);
+    font-size: small;
+    top: 32;
+    left: 40;
+    position: relative;
+
+}
+#content{
+    display: inline-block;
+    padding: 40px;
+    
+}
+
+
+#dichvu{
+    background-color: rgb(114, 113, 212);
+    color: rgb(255, 255, 255);
+    width: 20%;
+    height: 5%;
+    position: relative;
+    left: 40px;
+    border-radius: 30px;
+    
+}
+
+#calen{
+     background-color: rgb(71, 69, 206);
+    color: rgb(255, 255, 255);
+    width: 20%;
+    height: 5%;
+    position: relative;
+    left: 40px;
+    border-radius: 30px;
+    
+}
+
+
+#dichvu:hover{
+    background-color: rgb(39, 38, 36);
+    transform: scale(1.1);
+    transition: 0.3s ease-in;
+}
+
+
+#calen:hover{
+    /* background-color: rgb(39, 38, 36); */
+    transform: scale(1.1);
+    transition: 0.3s ease-in;
+}
+
+
+#dichvu , #calen , #dichvucontain ,#linkercon {
+    transition: all 0.4s ease-out;
+}
+
+
+
+
+#card3 ,#card2 ,#card{
+    border: 1px solid rgba(255, 255, 255 , 0.25);
+    background-color: rgba(50, 53, 5, 0.316);
+    padding: 10;
+    width: 20%;
+    height: 10%;
+    position: relative;
+    left: 40px;
+    border-radius: 30px;
+  
+   
+    
+   
+    margin: 10px;
+    width: 20%;  
+}
+
+
+#card:hover{
+   transform: translateY(-10px); 
+   transition: 0.25s;
+}
+
+#card2:hover{
+ transform: translateY(-10px); 
+   transition: 0.25s;
+}
+
+
+#card3:hover{
+   transform: translateY(-10px); 
+   transition: 0.25s;
+}
+
+
+#card , #card2 , #card3{
+    transition: all 0.5s ease-out;
+}
+
+#dichvu:active{
+    transform: scale(1.2);
+    transition: all 0.4s ease-out;
+}
+
+
+#calen:active{
+    transform: scale(1.2);
+    transition: all 0.4s ease-out;
+}
+
+
+#khongthetinduoc{
+    margin-left: 40px;
+    position: relative;
+    top: 20px;
+}
+
+
+#dichvucontain{
+    background-color: rgb(246, 251, 255);
+    box-shadow: 4px 5px 4px rgba(0, 0, 0 , 0.5);
+    position: relative;
+    top: 30px;
+    left: 30;
+    padding: 30px;
+    width: 70%;
+    
+    border-radius: 10px;
+    border: 2px solid rgb(166, 245, 245);
+}
+
+#dichvucontain:hover{
+    transform: scale(1.1);
+    transition: 0.25s;
+
+}
+
+#yaa{
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+#linkercon:hover{   
+    transform: translate(2px);
+    transition: 0.25s;
+   
+}
+/* }href */
+
+#ohmyugod{
+    position: relative;
+    left: 20px;
+    
+
+}
+
+li{
+    list-style: none;
+    position: relative;
+    left: 6px;
+}
+
+li::before{
+    content: "🖸";
+    
+}
+
+
+.containnongbong {
+    display: flex;
+    justify-content: right; /* Căn giữa theo chiều ngang */
+    align-items: right; /* Căn giữa theo chiều dọc */
+    position: absolute;
+    top: -10px; 
+    right: 6%; 
+    transform: translateX(-50%); 
+    width: auto;
+    border: 2px cyan solid;
+    background: rgb(73, 110, 212);
+    color: white;
+    font-weight: bold;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 14px;
+}
+
+
+
+
+#theend{
+    position: relative;
+    top: 50px;
+    left: 30px;
+    
+}
