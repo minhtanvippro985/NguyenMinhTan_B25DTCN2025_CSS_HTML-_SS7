@@ -79,3 +79,15 @@ p {
     position: absolute;
     
 }
+
+
+#iconbac::before{
+    content: "👨‍⚕️";
+}
+
+
+#iconmoney::before{
+    content: "💰";
+  
+
+}
