@@ -10,13 +10,12 @@
 }
 
 #yes{
-  max-width: fit-content;
+  object-fit: fill;
   border: 0;
   padding: 0;
+  width: 100%;
   box-sizing: border-box;
 }
-
-
 
 
 #greenies{
@@ -46,4 +45,5 @@ p{
     margin-left: 6px;
     padding: 10px;
     
+
 }
